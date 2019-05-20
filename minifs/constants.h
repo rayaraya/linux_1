@@ -1,0 +1,12 @@
+#ifndef CONSTANT_H
+#define CONSTANT_H
+
+#define MAGIC_NUM 1314522
+#define MINIFS_BLOCKSIZE 4096
+#define MINIFS_N_BLOCKS 10
+#define MINIFS_INODE_TABLE_START_IDX 4
+#define MINIFS_ROOT_INODE_NUM 0
+#define MINIFS_FILENAME_MAX_LEN 256
+#define RESERVE_BLOCKS 2 //dummy and sb
+
+#endif
