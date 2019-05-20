@@ -11,9 +11,13 @@ sudo chmod 0777 ./test -R
 cd test && ../../server 
 ````
 run client in another terminal inside sc folder
+
 ./client ‘command’
+
 available commands cd, ls, mkdir, cp, rm, mv, cat, echo, tee, touch
+
 ‘>’ could be used for remote fs, ‘-stdin’ for stdin
+
 examples of commands
 ````
 ./client touch tmp1
